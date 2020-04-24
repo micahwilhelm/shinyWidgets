@@ -115,8 +115,8 @@ airDatepickerInput <- function(inputId, label = NULL, value = NULL, multiple = F
   addon <- match.arg(addon)
   language <- match.arg(
     arg = language,
-    choices = c("cs", "da", "de", "en", "es", "fi", "fr", "hu", "nl", "pl",
-                "pt-BR", "pt", "ro", "ru", "sk", "tr", "zh"),
+    choices = c("cs", "da", "de", "en", "en-UK", "es", "fi", "fr", "hu", "nl", "pl",
+                "pt-BR", "pt", "ro", "ru", "sk", "tr", "zh"), #MW
     several.ok = FALSE
   )
 
